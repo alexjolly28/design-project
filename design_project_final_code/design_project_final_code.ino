@@ -96,7 +96,7 @@ void start()
   lcd.setCursor(11, 0);
   lcd.print(":");
 
-  if (0 <= sec < 10)
+  if (sec < 10)
   {
     lcd.setCursor(13, 0);
     lcd.print(sec);
@@ -153,7 +153,7 @@ void secf()
       lcd.setCursor(12, 0);
       lcd.print("00");
     }
-    if (0 <= sec < 10)
+    if ( sec < 10)
     {
       lcd.setCursor(13, 0);
       lcd.print(sec);
